@@ -4,7 +4,9 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true
-  }
+  },
+  basePath: '/maha-birthday',
+  assetPrefix: '/maha-birthday'
 };
 
 export default nextConfig;
