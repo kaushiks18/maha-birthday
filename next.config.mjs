@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/maha-birthday',
-  assetPrefix: '/maha-birthday'
+  basePath: '',
+  assetPrefix: ''
 };
 
 export default nextConfig;
