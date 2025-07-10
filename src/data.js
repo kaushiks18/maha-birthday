@@ -30,4 +30,6 @@ export const authorName = "Maha....🦋🤎"
 
 // Background music file path
 // Place your .mp3 file inside the public folder and give the path like below
-export const audioSrc = "./bg.mp3"
+export const audioSrc = "/bg.mp3";
+
+
