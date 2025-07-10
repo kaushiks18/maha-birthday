@@ -20,10 +20,10 @@ export const photos = [
 // The full letter message, change it accordingly
 export const letterMessage = `Dear Milleur ami💕,
 HAPPIEST BIRTHDAY MY MAHA💖🦋
-Hope, Aapka ye din sabse special ho hona bhi chahiye kyuki aap khud special ho sabse best meri jindagi ki sbse special person ho aap🫶🏻❤️ Vo insaan ho jisne mujhe meri life ke sabse best moments diye hain THANKUU BABY❤️❤️
+Hope, Aapka ye din sabse special ho hona bhi chahiye kyuki aap khud special ho sabse best meri jindagi ki sbse special person ho aap🫶🏻❤️ Vo insaan ho jisne mujhe meri life ke sabse best moments diye hain ❤️❤️
 ONCE AGAIN HAPPIEST BIRTHDAY MERI JAAN💗💘🫶🏻
 I HOPE YOUR BIRTHDAY IS FULL OF LOVE AND EVERYTHING THAT MAKES YOU HAPPY AND SMILE🥰🥹
-I LOVE YOU SO MUCH❤️🥹🫶🏻`;
+Happy Birthday ❤️🥹🫶🏻`;
 
 // Name shown in the footer, change it to yours
 export const authorName = "Maha....🦋🤎"
