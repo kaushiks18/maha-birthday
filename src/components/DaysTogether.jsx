@@ -10,7 +10,7 @@ export default function DaysTogether({ animationDuration = 3 }) {
   const animationRef = useRef(null);
 
   useEffect(() => {
-    const days = 21;
+    const days = 20;
 
     // Animation timing
     const duration = animationDuration * 1000;
