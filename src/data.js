@@ -1,7 +1,7 @@
-// Your Anniversary Date (Format: yyyy-mm-ddTHH:MM:SS)
+// Your Birthday Date (Format: yyyy-mm-ddTHH:MM:SS)
 export const BIRTHDAY_DATE = "2025-07-11T00:00:00"; // Kartik insta @kartikk_sahh
 
-// A sweet short message shown below the Happy Anniversary heading
+// A sweet short message shown below the Happy Birthday heading
 export const topMessage = "HAPPY BIRTHDAY SHAGUN!❤️🥹 aaj ka din aapka h sirf or sirf aapka aap har din khushiyan deserve krti ho lekin aaj kuch special toh hona hi chahiye or dino se ab hum saath nhi h toh syd na kr paun kuch cheezein jo soochi thi but kya kr sakte, jitna efforts aapne mere birthday pr kare the uske .1% bhi nhi kr skta m sorry uske liye😔 BUT I LOVE YOU SO MUCHHH💗🫶🏻 Lekin hmesha yeii dua rhegi bhagwan se aap khush raho hmesha hmesha kyuki aap deserve krti ho hr vo cheez jo aapko khush krti ho jisse aapko khushi milti ho❤️❤️ HOPE YOU RECEIVE ALL THE LOVE, HAPPINESS AND CARE YOU DESERVE🥹🧿🧿"
 
 // These are the photos shown in the gallery section.
