@@ -10,11 +10,11 @@ export const topMessage = "HAPPY BIRTHDAY MAHA!❤️🥹 You walked into my lif
 // You can change the alt text to describe the photo.
 // To add more photos, just copy and paste the same line below.
 export const photos = [
-  { src: '/maha-birthday/img1.jpg' },
-  { src: '/maha-birthday/img2.jpg' },
-  { src: '/maha-birthday/img3.jpg' },
-  { src: '/maha-birthday/img4.jpg' },
-  { src: '/maha-birthday/img5.jpg' },
+  { src: '/img1.jpg' },
+  { src: '/img2.jpg' },
+  { src: '/img3.jpg' },
+  { src: '/img4.jpg' },
+  { src: '/img5.jpg' },
 ];
 
 // The full letter message, change it accordingly
@@ -39,4 +39,4 @@ export const authorName = "Maha....🦋🤎"
 
 // Background music file path
 // Place your .mp3 file inside the public folder and give the path like below
-export const audioSrc = '/maha-birthday/bg.mp3';
+export const audioSrc = '/bg.mp3';
