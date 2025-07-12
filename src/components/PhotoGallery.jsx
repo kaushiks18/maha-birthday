@@ -5,23 +5,6 @@ import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
 import { XIcon } from "lucide-react"
 
-// Helper function to get the correct image path for GitHub Pages
-const getImagePath = (src) => {
-  if (typeof window !== "undefined") {
-    // Client-side: check if we're on GitHub Pages
-    const isGitHubPages = window.location.hostname.includes('github.io');
-    if (isGitHubPages) {
-      const pathSegments = window.location.pathname.split('/').filter(Boolean);
-      if (pathSegments.length > 0) {
-        return `/${pathSegments[0]}${src}`;
-      }
-    }
-  }
-  // Server-side or development: use environment variable
-  const basePath = process.env.NODE_ENV === 'production' ? '/maha-birthday' : '';
-  return `${basePath}${src}`;
-};
-
 export default function PhotoGallery({ photos }) {
     const [selectedPhoto, setSelectedPhoto] = useState(null)
     const [hoveredIndex, setHoveredIndex] = useState(null)
@@ -114,7 +97,7 @@ export default function PhotoGallery({ photos }) {
 
                         <div className="relative aspect-[3/2] ">
                             <Image
-                                src={getImagePath(photo.src) || "/placeholder.svg"}
+                                src={photo.src || "/placeholder.svg"}
                                 alt="memories"
                                 fill
                                 sizes="200"
@@ -172,7 +155,7 @@ export default function PhotoGallery({ photos }) {
 
                             <div className="relative w-full h-full">
                                 <Image
-                                    src={getImagePath(selectedPhoto.src) || "/image.png"}
+                                    src={selectedPhoto.src || "/image.png"}
                                     alt="memories"
                                     height={400}
                                     width={300}

@@ -10,9 +10,8 @@ export default function MusicPlayer({ playSong }) {
     const audioRef = useRef(null)
 
     useEffect(() => {
-        // For audio files, we need to manually add the basePath since Audio constructor doesn't use Next.js routing
-        const basePath = process.env.NODE_ENV === 'production' ? '/maha-birthday' : '';
-        audioRef.current = new Audio(`${basePath}${audioSrc}`);
+        // The audioSrc already has the correct path with basePath included from data.js
+        audioRef.current = new Audio(audioSrc);
         audioRef.current.loop = true;
         audioRef.current.volume = 0.8;
 
